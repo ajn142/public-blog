@@ -1,3 +1,6 @@
 [submodule "echo"]
 	path = echo
 	url = ssh://git@github.com/ajn142/echo.git
+[submodule "dompurify"]
+	path = dompurify
+	url = ssh://git@github.com/cure53/dompurify
