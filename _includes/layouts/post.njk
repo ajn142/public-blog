@@ -4,6 +4,9 @@ layout: layouts/base.njk
 {# Only include the syntax highlighter CSS on blog posts, included with the CSS per-page bundle #}
 <style>{% include "node_modules/prismjs/themes/prism-okaidia.css" %}</style>
 <style>{% include "css/prism-diff.css" %}</style>
+<style>{% include "css/avatars.scss" %}</style>
+<style>{% include "css/comments.scss" %}</style>
+
 <h1>{{ title }}</h1>
 
 <ul class="post-metadata">
@@ -26,3 +29,13 @@ layout: layouts/base.njk
 </ul>
 {%- endif %}
 {%- endif %}
+
+{%- if commentId | length -%}
+	{% include "layouts/comments.njk" %}
+{%- else -%}
+	<section id="comments" class="comments">
+		<hr>
+		<h4>Comments</h4>
+		<p>Comments have not been enabled for this post.</p>
+	</section>
+{% endif %}
