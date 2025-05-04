@@ -7,6 +7,10 @@
 		<meta name="description" content="{{ description or metadata.description }}">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 
+		{#- Elements for Mastodon style profile verification and author attribution #}
+		<link rel="me" href="{{ metadata.author.url }}">
+		<meta name="fediverse:creator" content="{{ metadata.author.fediverseHandle }}">
+
 		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
 		{#- <meta name="generator" content="{{ eleventy.generator }}"> #}
 

@@ -6,6 +6,7 @@ export default {
 	author: {
 		name: "ajn142",
 		email: "",
-		url: "https://infosec.exchange/@ajn142"
+		url: "https://infosec.exchange/@ajn142",
+		fediverseHandle: "@ajn142@infosec.exchange"
 	}
 }

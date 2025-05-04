@@ -14,12 +14,12 @@ Some of this is chores, some of this is blog posts
 
 - Better title than "My blog yo"
 - ~~Better About than default~~
-- Make repo public
+- ~~Make repo public~~
 - Get images in comments working
 - Automate comment thread creation and linking
 - Why blog?
 - How blog?
 - Benign True Positive as a valid category, reaction to BHIS livestream 2025-04-24
 - https://blog.embee.co/posts/11ty-open-graph-funtimes
-- Mastodon profile verification and author attribution
+- ~~Mastodon profile verification and author attribution~~
 
